@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void anr(View v){
         for (int i=0;i<1000;i++){
-            BitmapFactory.decodeResource(getResources(),R.drawable.android);
+           // BitmapFactory.decodeResource(getResources(),R.drawable.android);
         }
     }
 
@@ -144,7 +144,7 @@ public class MainActivity extends AppCompatActivity {
                Bundle bundle = new Bundle();
                bundle.putString("attach","\n努力多1%:"+achievement1+"\n努力多2%:"+achievement2);
                msg.setData(bundle);
-               myHandler.sendMessage(msg);
+               //myHandler.sendMessage(msg);
            }
        }
        Timer timer = new Timer();
@@ -190,8 +190,8 @@ public class MainActivity extends AppCompatActivity {
                 super.onPostExecute(s);
             }
         }
-        learHard learHard = new LearHard(this);
-        learHard.execute((long)seconds);
+       // learHard learHard = new LearHard(this);
+       // learHard.execute((long)seconds);
     }
 
 
