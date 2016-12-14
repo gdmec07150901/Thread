@@ -144,7 +144,7 @@ public class MainActivity extends AppCompatActivity {
                Bundle bundle = new Bundle();
                bundle.putString("attach","\n努力多1%:"+achievement1+"\n努力多2%:"+achievement2);
                msg.setData(bundle);
-               //myHandler.sendMessage(msg);
+
            }
        }
        Timer timer = new Timer();
